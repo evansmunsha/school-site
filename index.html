@@ -1,0 +1,482 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Education website</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script src="https://kit.fontawesome.com/ce0a0a162f.js" crossorigin="anonymous"></script>
+    <!--======SWIPER JS========-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css" />
+  </head>
+  <body>
+    <nav>
+      <div class="container nav__container">
+        <a href="index.html">Munsha</a>
+        <ul class="nav__menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <button onclick="menuOpen()" id="open-menu-btn">
+          <i class="fa-solid fa-bars" style="color: #ffffff"></i>
+        </button>
+        <button id="close-menu-btn">
+          <i class="fa-solid fa-xmark" style="color: #ffffff"></i>
+        </button>
+      </div>
+    </nav>
+    <!--==============END OF NAVBAR============-->
+    <header>
+      <div class="container header__container">
+        <div class="header__left">
+          <h1>Grow your skills to andvance your career path</h1>
+          <p>
+            The goals of the Open Font License (OFL) are to stimulate worldwide development of
+            collaborative font projects, to support the font creation efforts of academic and
+            linguistic communities.
+          </p>
+          <a href="courses.html" class="btn btn-primary">Get Started</a>
+        </div>
+
+        <div class="header__right">
+          <div class="header__right-image">
+            <img src="images/social-media-5187243_640.webp" alt="" />
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!--==============END OF HEADER============-->
+
+    <section class="categories">
+      <div class="container categories__container">
+        <div class="categories__left">
+          <h1>Categories</h1>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem corrupti doloribus
+            ipsum fugit maiores eaque deleniti debitis sequi, inventore esse eius reprehenderit
+            quisquam porro animi accusamus officia quam itaque quod.
+          </p>
+          <a href="" class="btn">Learn more</a>
+        </div>
+
+        <div class="categories__right">
+          <article class="category">
+            <span class="category__icon">
+              <i class="fa-brands fa-bitcoin" style="color: #005eff"></i>
+            </span>
+            <h5>Blockchain</h5>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro, veritatis.</p>
+          </article>
+
+          <article class="category">
+            <span class="category__icon">
+              <i class="fa-solid fa-marker" style="color: #fff"></i>
+            </span>
+            <h5>Graphic Design</h5>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro, veritatis.</p>
+          </article>
+
+          <article class="category">
+            <span class="category__icon">
+              <i class="fa-solid fa-bullhorn" style="color: #fff"></i>
+            </span>
+            <h5>Marketin</h5>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro, veritatis.</p>
+          </article>
+
+          <article class="category">
+            <span class="category__icon">
+              <i class="fa-solid fa-music" style="color: #fff"></i>
+            </span>
+            <h5>Music</h5>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro, veritatis.</p>
+          </article>
+
+          <article class="category">
+            <span class="category__icon">
+              <i class="fa-solid fa-business-time" style="color: #005eff"></i>
+            </span>
+            <h5>Business</h5>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro, veritatis.</p>
+          </article>
+
+          <article class="category">
+            <span class="category__icon">
+              <i class="fa-solid fa-coins" style="color: #fff"></i>
+            </span>
+            <h5>Finance</h5>
+            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Porro, veritatis.</p>
+          </article>
+        </div>
+      </div>
+    </section>
+    <!--==============END OF CATEGORIES============-->
+    <section class="courses">
+      <h2>Popular Courses</h2>
+      <div class="container courses__container">
+        <article class="course">
+          <div class="course__image">
+            <img src="./images/index-ml.png" alt="" />
+          </div>
+          <div class="course__info">
+            <h4>Responsive Food Website Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, laboriosam consequatur.
+              Obcaecati necessitatibus laudantium corrupti. Ratione.
+            </p>
+            <a href="courses.html" class="btn btn-primary">Learn more</a>
+          </div>
+        </article>
+        <article class="course">
+          <div class="course__image">
+            <img src="./images/dark-mode.png" alt="" />
+          </div>
+          <div class="course__info">
+            <h4>Responsive Dark Mode Socia Media Website Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, laboriosam consequatur.
+              Obcaecati necessitatibus laudantium corrupti. Ratione.
+            </p>
+            <a href="courses.html" class="btn btn-primary">Learn more</a>
+          </div>
+        </article>
+
+        <article class="course">
+          <div class="course__image">
+            <img src="./images/profile.png" alt="" />
+          </div>
+          <div class="course__info">
+            <h4>Responsive Socia Media Website Design</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Odit, laboriosam consequatur.
+              Obcaecati necessitatibus laudantium corrupti. Ratione.
+            </p>
+            <a href="courses.html" class="btn btn-primary">Learn more</a>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!--==============END OF COURSES============-->
+    <section class="faqs">
+      <h2>Frequently Asked Questions</h2>
+      <div class="container faqs__container">
+        <atricle class="faq">
+          <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+
+          <div class="question__answer">
+            <h4>How can I know the right course for me?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi eligendi porro
+              temporibus optio. Sunt officiis, sequi cupiditate quibusdam molestias eaque numquam
+              perspiciatis magnam. Officia suscipit quas, voluptas quasi reprehenderit quos aut
+              voluptatibus veniam ea dolores?
+            </p>
+          </div>
+        </atricle>
+
+        <atricle class="faq">
+          <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+
+          <div class="question__answer">
+            <h4>How can I know the right course for me?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi eligendi porro
+              temporibus optio. Sunt officiis, sequi cupiditate quibusdam molestias eaque numquam
+              perspiciatis magnam. Officia suscipit quas, voluptas quasi reprehenderit quos aut
+              voluptatibus veniam ea dolores?
+            </p>
+          </div>
+        </atricle>
+
+        <atricle class="faq">
+          <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+
+          <div class="question__answer">
+            <h4>How can I know the right course for me?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi eligendi porro
+              temporibus optio. Sunt officiis, sequi cupiditate quibusdam molestias eaque numquam
+              perspiciatis magnam. Officia suscipit quas, voluptas quasi reprehenderit quos aut
+              voluptatibus veniam ea dolores?
+            </p>
+          </div>
+        </atricle>
+
+        <atricle class="faq">
+          <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+
+          <div class="question__answer">
+            <h4>How can I know the right course for me?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi eligendi porro
+              temporibus optio. Sunt officiis, sequi cupiditate quibusdam molestias eaque numquam
+              perspiciatis magnam. Officia suscipit quas, voluptas quasi reprehenderit quos aut
+              voluptatibus veniam ea dolores?
+            </p>
+          </div>
+        </atricle>
+
+        <atricle class="faq">
+          <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+
+          <div class="question__answer">
+            <h4>How can I know the right course for me?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi eligendi porro
+              temporibus optio. Sunt officiis, sequi cupiditate quibusdam molestias eaque numquam
+              perspiciatis magnam. Officia suscipit quas, voluptas quasi reprehenderit quos aut
+              voluptatibus veniam ea dolores?
+            </p>
+          </div>
+        </atricle>
+
+        <atricle class="faq">
+          <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+
+          <div class="question__answer">
+            <h4>How can I know the right course for me?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi eligendi porro
+              temporibus optio. Sunt officiis, sequi cupiditate quibusdam molestias eaque numquam
+              perspiciatis magnam. Officia suscipit quas, voluptas quasi reprehenderit quos aut
+              voluptatibus veniam ea dolores?
+            </p>
+          </div>
+        </atricle>
+
+        <atricle class="faq">
+          <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+
+          <div class="question__answer">
+            <h4>How can I know the right course for me?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi eligendi porro
+              temporibus optio. Sunt officiis, sequi cupiditate quibusdam molestias eaque numquam
+              perspiciatis magnam. Officia suscipit quas, voluptas quasi reprehenderit quos aut
+              voluptatibus veniam ea dolores?
+            </p>
+          </div>
+        </atricle>
+
+        <atricle class="faq">
+          <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+
+          <div class="question__answer">
+            <h4>How can I know the right course for me?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi eligendi porro
+              temporibus optio. Sunt officiis, sequi cupiditate quibusdam molestias eaque numquam
+              perspiciatis magnam. Officia suscipit quas, voluptas quasi reprehenderit quos aut
+              voluptatibus veniam ea dolores?
+            </p>
+          </div>
+        </atricle>
+
+        <atricle class="faq">
+          <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+
+          <div class="question__answer">
+            <h4>How can I know the right course for me?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi eligendi porro
+              temporibus optio. Sunt officiis, sequi cupiditate quibusdam molestias eaque numquam
+              perspiciatis magnam. Officia suscipit quas, voluptas quasi reprehenderit quos aut
+              voluptatibus veniam ea dolores?
+            </p>
+          </div>
+        </atricle>
+
+        <atricle class="faq">
+          <div class="faq__icon"><i class="fa-solid fa-plus"></i></div>
+
+          <div class="question__answer">
+            <h4>How can I know the right course for me?</h4>
+            <p>
+              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Animi eligendi porro
+              temporibus optio. Sunt officiis, sequi cupiditate quibusdam molestias eaque numquam
+              perspiciatis magnam. Officia suscipit quas, voluptas quasi reprehenderit quos aut
+              voluptatibus veniam ea dolores?
+            </p>
+          </div>
+        </atricle>
+      </div>
+    </section>
+
+    <!--==============END OF FQA============-->
+
+    <section class="container testimonials__container mySwiper">
+      <h2>Testimonials</h2>
+      <div class="swiper-wrapper">
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="images/member-2.png" alt="" />
+          </div>
+          <div class="testimonial__info">
+            <h5>Evans Munsha</h5>
+            <small>Front end web developer</small>
+          </div>
+          <div class="testimonail__body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates eos aperiam
+              praesentium nesciunt officia maiores error ut laborum quam doloremque, quo
+              voluptatibus aliquid consectetur vero dignissimos? Obcaecati vero dolor tempora!
+            </p>
+          </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="images/member-1.png" alt="" />
+          </div>
+          <div class="testimonial__info">
+            <h5>Joys Munsha</h5>
+            <small>Student</small>
+          </div>
+          <div class="testimonail__body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates eos aperiam
+              praesentium nesciunt officia maiores error ut laborum quam doloremque, quo
+              voluptatibus aliquid consectetur vero dignissimos? Obcaecati vero dolor tempora!
+            </p>
+          </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="images/member-4.png" alt="" />
+          </div>
+          <div class="testimonial__info">
+            <h5>vans unsha</h5>
+            <small>Student</small>
+          </div>
+          <div class="testimonail__body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates eos aperiam
+              praesentium nesciunt officia maiores error ut laborum quam doloremque, quo
+              voluptatibus aliquid consectetur vero dignissimos? Obcaecati vero dolor tempora!
+            </p>
+          </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="images/member-2.png" alt="" />
+          </div>
+          <div class="testimonial__info">
+            <h5>Ensteen Munsha</h5>
+            <small>Student</small>
+          </div>
+          <div class="testimonail__body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates eos aperiam
+              praesentium nesciunt officia maiores error ut laborum quam doloremque, quo
+              voluptatibus aliquid consectetur vero dignissimos? Obcaecati vero dolor tempora!
+            </p>
+          </div>
+        </article>
+
+        <article class="testimonial swiper-slide">
+          <div class="avatar">
+            <img src="images/member-2.png" alt="" />
+          </div>
+          <div class="testimonial__info">
+            <h5>Vanss Munsha</h5>
+            <small>Student</small>
+          </div>
+          <div class="testimonail__body">
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptates eos aperiam
+              praesentium nesciunt officia maiores error ut laborum quam doloremque, quo
+              voluptatibus aliquid consectetur vero dignissimos? Obcaecati vero dolor tempora!
+            </p>
+          </div>
+        </article>
+      </div>
+      <div class="swiper-pagination"></div>
+    </section>
+
+    <footer>
+      <div class="container footer__container">
+        <div class="footer__1">
+          <a href="index.html" class="footer__logo"><h4>MUNSHA</h4></a>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam doloremque iste
+            impedit.
+          </p>
+        </div>
+
+        <div class="footer__2">
+          <h4>permalinks</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__3">
+          <h4>primacy</h4>
+          <ul>
+            <li><a href="#">privacyPolicy</a></li>
+            <li><a href="#">Terms and conditions</a></li>
+            <li><a href="#">RefundPolicy</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__4">
+          <h4>Contact Us</h4>
+          <div>
+            <p>+260 972 659 139</p>
+            <p>evans@munsha.com</p>
+          </div>
+
+          <ul class="footer__socials">
+            <li>
+              <a href="#"><i class="fa-brands fa-square-facebook" style="color: #005eff"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-instagram" style="color: #005eff"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-twitter" style="color: #005eff"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-linkedin" style="color: #005eff"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <small>Copyright &copy; MUNSHA Front End Developer</small>
+      </div>
+    </footer>
+    <!--==============END OF FOOTER============-->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
+    <script src="./main.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+      var swiper = new Swiper(".mySwiper", {
+        slidesPerView: 1,
+        spaceBetween: 30,
+        pagination: {
+          el: ".swiper-pagination",
+          clickable: true,
+        },
+        // when window width is >= 600px
+        breakpoints: {
+          600: {
+            slidesPerView: 2,
+          },
+        },
+      });
+    </script>
+  </body>
+</html>

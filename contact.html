@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Education website</title>
+
+    <link rel="stylesheet" href="css/style.css" />
+    <link rel="stylesheet" href="css/contact.css" />
+    <script src="https://kit.fontawesome.com/ce0a0a162f.js" crossorigin="anonymous"></script>
+    <style>
+      .courses {
+        margin-top: 1rem;
+      }
+    </style>
+  </head>
+  <body>
+    <nav>
+      <div class="container nav__container">
+        <a href="index.html">Munsha</a>
+        <ul class="nav__menu">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="about.html">About</a></li>
+          <li><a href="courses.html">Courses</a></li>
+          <li><a href="contact.html">Contact</a></li>
+        </ul>
+
+        <button id="open-menu-btn">
+          <i class="fa-solid fa-bars" style="color: #ffffff"></i>
+        </button>
+        <button id="close-menu-btn">
+          <i class="fa-solid fa-xmark" style="color: #ffffff"></i>
+        </button>
+      </div>
+    </nav>
+
+    <section class="contact">
+      <div class="container contact__container">
+        <aside class="contact__aside">
+          <div class="contact__image">
+            <img src="images/Contact us-amico.svg" alt="" />
+          </div>
+          <h2>Contact Us</h2>
+          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Illo magni facere quo?</p>
+          <ul class="contact__details">
+            <li>
+              <i class="fa-solid fa-phone"></i>
+              <h5>+260 972 659 139</h5>
+            </li>
+            <li>
+              <i class="fa-regular fa-envelope"></i>
+              <h5>webdeveloper@gmail.com</h5>
+            </li>
+            <li>
+              <i class="fa-solid fa-location-dot"></i>
+              <h5>Lusaka Zambia</h5>
+            </li>
+            <ul class="contact__socials">
+              <li>
+                <a href="https://instagram.com" target="_blank" rel="noopener noreferrer"
+                  ><i class="fa-brands fa-instagram" style="color: #cd1aff"></i
+                ></a>
+              </li>
+              <li>
+                <a href="https://facebook.com" target="_blank" rel="noopener noreferrer"
+                  ><i class="fa-brands fa-facebook" style="color: #1a6eff"></i
+                ></a>
+              </li>
+              <li>
+                <a href="http://linkedin.com" target="_blank" rel="noopener noreferrer"
+                  ><i class="fa-brands fa-linkedin" style="color: #1866ec"></i
+                ></a>
+              </li>
+              <li>
+                <a href="http://twitter.com" target="_blank" rel="noopener noreferrer"
+                  ><i class="fa-brands fa-twitter" style="color: #2b76f7"></i
+                ></a>
+              </li>
+            </ul>
+          </ul>
+        </aside>
+
+        <form action="https://formspree.io/f/xknlpvwg" method="post" class="contact__form">
+          <div class="form__name">
+            <input type="text" name="First Name" placeholder="First Name" required />
+            <input type="text" name="Last Name" placeholder="Last Name" required />
+          </div>
+          <input type="email" name="Email Address" placeholder="Your Email Address" required />
+          <textarea
+            name="Message"
+            placeholder="Type Your Message Here"
+            rows="7"
+            required></textarea>
+          <button type="submit" class="btn btn-primary">Send Now</button>
+        </form>
+      </div>
+    </section>
+    <footer>
+      <div class="container footer__container">
+        <div class="footer__1">
+          <a href="index.html" class="footer__logo"><h4>MUNSHA</h4></a>
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam doloremque iste
+            impedit.
+          </p>
+        </div>
+
+        <div class="footer__2">
+          <h4>permalinks</h4>
+          <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="courses.html">Courses</a></li>
+            <li><a href="contact.html">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__3">
+          <h4>primacy</h4>
+          <ul>
+            <li><a href="#">privacyPolicy</a></li>
+            <li><a href="#">Terms and conditions</a></li>
+            <li><a href="#">RefundPolicy</a></li>
+          </ul>
+        </div>
+
+        <div class="footer__4">
+          <h4>Contact Us</h4>
+          <div>
+            <p>+260 972 659 139</p>
+            <p>evans@munsha.com</p>
+          </div>
+
+          <ul class="footer__socials">
+            <li>
+              <a href="#"><i class="fa-brands fa-square-facebook" style="color: #005eff"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-instagram" style="color: #005eff"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-twitter" style="color: #005eff"></i></a>
+            </li>
+            <li>
+              <a href="#"><i class="fa-brands fa-linkedin" style="color: #005eff"></i></a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer__copyright">
+        <small>Copyright &copy; MUNSHA Front End Developer</small>
+      </div>
+    </footer>
+    <!--==============END OF FOOTER============-->
+
+    <script src="./main.js"></script>
+  </body>
+</html>
